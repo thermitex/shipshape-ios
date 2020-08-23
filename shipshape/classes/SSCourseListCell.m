@@ -17,7 +17,7 @@
     UILabel *courseCodeLabel = [[UILabel alloc] initWithFrame:CGRectMake(8, 8, self.bounds.size.width, 18)];
     courseCodeLabel.font = BOLD_FONT(15);
     courseCodeLabel.textColor = [UIColor colorNamed:@"contentPrimaryColor"];
-    courseCodeLabel.text = @"COMP3403";
+    courseCodeLabel.text = course.code;
     [self addSubview:courseCodeLabel];
     
     UILabel *courseTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(8, 26, self.bounds.size.width, 18)];
@@ -25,13 +25,13 @@
     courseTitleLabel.textColor = [UIColor colorNamed:@"contentPrimaryColor"];
     courseTitleLabel.numberOfLines = 1;
     courseTitleLabel.lineBreakMode = NSLineBreakByTruncatingTail;
-    courseTitleLabel.text = @"Implementation, testing and maintenance of software systems";
+    courseTitleLabel.text = course.title;
     [self addSubview:courseTitleLabel];
     
     UILabel *selectedSubLabel = [[UILabel alloc] initWithFrame:CGRectMake(8, 44, self.bounds.size.width, 18)];
     selectedSubLabel.font = LIGHT_FONT(15);
     selectedSubLabel.textColor = [UIColor colorNamed:@"contentPrimaryColor"];
-    selectedSubLabel.text = @"Sub: 2A";
+    selectedSubLabel.text = [NSString stringWithFormat:@"Sub: %@", course.subSelected];
     [self addSubview:selectedSubLabel];
 }
 

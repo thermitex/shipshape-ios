@@ -8,6 +8,7 @@
 #import "SSCourseListViewController.h"
 #import "SSCourseModel.h"
 #import "SSCourseListCell.h"
+#import "SSLocalStorageManager.h"
 
 static NSString *const courseListCellIdentifier = @"courseListCellIdentifier";
 static const NSInteger kRowHeight = 70;
@@ -33,20 +34,26 @@ static const NSInteger kCellMargin = 10;
     [_courseTableView registerClass:[SSCourseListCell class] forCellReuseIdentifier:courseListCellIdentifier];
 }
 
-#pragma mark - Tableview Data source
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    _localCourses = [SSLocalStorageManager courseStorage];
+    [_courseTableView reloadData];
+}
+
+#pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 1;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 5;
+    return [_localCourses count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    SSCourseModel *course = _localCourses[indexPath.row];
+    SSCourseModel *course = _localCourses[indexPath.row];
     SSCourseListCell *courseCell = [tableView dequeueReusableCellWithIdentifier:courseListCellIdentifier];
-    [courseCell configWithCourse:nil];
+    [courseCell configWithCourse:course];
     return courseCell;
 }
 
