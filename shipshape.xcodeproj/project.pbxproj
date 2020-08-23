@@ -27,6 +27,7 @@
 		F4D8F29924F2947000702660 /* SSCourseListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F29624F2947000702660 /* SSCourseListCell.m */; };
 		F4D8F29A24F2947000702660 /* SSCalendarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F29724F2947000702660 /* SSCalendarItemView.m */; };
 		F4D8F29D24F29A0500702660 /* SSLocalStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F29C24F29A0500702660 /* SSLocalStorageManager.m */; };
+		F4D8F2A024F2B20300702660 /* SSConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F29F24F2B20300702660 /* SSConnectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		F4D8F29824F2947000702660 /* SSCourseListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCourseListCell.h; path = classes/SSCourseListCell.h; sourceTree = "<group>"; };
 		F4D8F29B24F29A0500702660 /* SSLocalStorageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSLocalStorageManager.h; path = classes/SSLocalStorageManager.h; sourceTree = "<group>"; };
 		F4D8F29C24F29A0500702660 /* SSLocalStorageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSLocalStorageManager.m; path = classes/SSLocalStorageManager.m; sourceTree = "<group>"; };
+		F4D8F29E24F2B20300702660 /* SSConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSConnectionManager.h; path = classes/SSConnectionManager.h; sourceTree = "<group>"; };
+		F4D8F29F24F2B20300702660 /* SSConnectionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSConnectionManager.m; path = classes/SSConnectionManager.m; sourceTree = "<group>"; };
 		FD64FF84C32949955F85044B /* Pods-shipshape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shipshape.release.xcconfig"; path = "Target Support Files/Pods-shipshape/Pods-shipshape.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +118,8 @@
 				F4D8F28E24F293BE00702660 /* SSCalendarSpecManager.m */,
 				F4D8F29B24F29A0500702660 /* SSLocalStorageManager.h */,
 				F4D8F29C24F29A0500702660 /* SSLocalStorageManager.m */,
+				F4D8F29E24F2B20300702660 /* SSConnectionManager.h */,
+				F4D8F29F24F2B20300702660 /* SSConnectionManager.m */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				F42C3CF924B612E30015FA0E /* SSCourseListViewController.m in Sources */,
 				F4D8F29224F293DF00702660 /* SSMainViewController.m in Sources */,
 				F4D8F29924F2947000702660 /* SSCourseListCell.m in Sources */,
+				F4D8F2A024F2B20300702660 /* SSConnectionManager.m in Sources */,
 				F4A3641B24B20069005B5EA0 /* AppDelegate.m in Sources */,
 				F4D8F28F24F293BE00702660 /* SSCalendarSpecManager.m in Sources */,
 				F4D8F28324F267F000702660 /* SSCourseModel.m in Sources */,

@@ -9,6 +9,7 @@
 #import "SSCourseModel.h"
 #import "SSCourseListCell.h"
 #import "SSLocalStorageManager.h"
+#import "SSConnectionManager.h"
 
 static NSString *const courseListCellIdentifier = @"courseListCellIdentifier";
 static const NSInteger kRowHeight = 70;
