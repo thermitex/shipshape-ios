@@ -3,32 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720EFFD2DB20630404D25090 /* Pods_shipshape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8020FB629D92B1EC6323BDC9 /* Pods_shipshape.framework */; };
+		F42C3CDC24B216250015FA0E /* inc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42C3CDB24B216250015FA0E /* inc.ttf */; };
+		F42C3CE124B216320015FA0E /* Aleo-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F42C3CDE24B216320015FA0E /* Aleo-Light.otf */; };
+		F42C3CE224B216320015FA0E /* Aleo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F42C3CDF24B216320015FA0E /* Aleo-Bold.otf */; };
+		F42C3CE524B216E30015FA0E /* Aleo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F42C3CE424B216E30015FA0E /* Aleo-Regular.otf */; };
+		F42C3CF624B4B5B40015FA0E /* SSSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42C3CF524B4B5B40015FA0E /* SSSideViewController.m */; };
+		F42C3CF924B612E30015FA0E /* SSCourseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42C3CF824B612E30015FA0E /* SSCourseListViewController.m */; };
 		F4A3641B24B20069005B5EA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3641A24B20069005B5EA0 /* AppDelegate.m */; };
 		F4A3641E24B20069005B5EA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3641D24B20069005B5EA0 /* SceneDelegate.m */; };
-		F4A3642124B20069005B5EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3642024B20069005B5EA0 /* ViewController.m */; };
 		F4A3642424B20069005B5EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A3642224B20069005B5EA0 /* Main.storyboard */; };
 		F4A3642624B2006E005B5EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A3642524B2006E005B5EA0 /* Assets.xcassets */; };
 		F4A3642924B2006E005B5EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A3642724B2006E005B5EA0 /* LaunchScreen.storyboard */; };
 		F4A3642C24B2006E005B5EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3642B24B2006E005B5EA0 /* main.m */; };
+		F4D8F28324F267F000702660 /* SSCourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F28224F267F000702660 /* SSCourseModel.m */; };
+		F4D8F28624F268C900702660 /* SSTimeSlotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F28524F268C900702660 /* SSTimeSlotModel.m */; };
+		F4D8F28F24F293BE00702660 /* SSCalendarSpecManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F28E24F293BE00702660 /* SSCalendarSpecManager.m */; };
+		F4D8F29224F293DF00702660 /* SSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F29024F293DF00702660 /* SSMainViewController.m */; };
+		F4D8F29924F2947000702660 /* SSCourseListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F29624F2947000702660 /* SSCourseListCell.m */; };
+		F4D8F29A24F2947000702660 /* SSCalendarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8F29724F2947000702660 /* SSCalendarItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4A3641624B20069005B5EA0 /* shipshape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shipshape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6574E69C47AFE0965152B3 /* Pods-shipshape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shipshape.debug.xcconfig"; path = "Target Support Files/Pods-shipshape/Pods-shipshape.debug.xcconfig"; sourceTree = "<group>"; };
+		8020FB629D92B1EC6323BDC9 /* Pods_shipshape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shipshape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42C3CDB24B216250015FA0E /* inc.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = inc.ttf; path = fonts/inc.ttf; sourceTree = "<group>"; };
+		F42C3CDE24B216320015FA0E /* Aleo-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Light.otf"; path = "fonts/Aleo-Light.otf"; sourceTree = "<group>"; };
+		F42C3CDF24B216320015FA0E /* Aleo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Bold.otf"; path = "fonts/Aleo-Bold.otf"; sourceTree = "<group>"; };
+		F42C3CE424B216E30015FA0E /* Aleo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Regular.otf"; path = "fonts/Aleo-Regular.otf"; sourceTree = "<group>"; };
+		F42C3CE624B35CA60015FA0E /* SSGlobalDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGlobalDefinitions.h; sourceTree = "<group>"; };
+		F42C3CF424B4B5B40015FA0E /* SSSideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSSideViewController.h; path = classes/SSSideViewController.h; sourceTree = "<group>"; };
+		F42C3CF524B4B5B40015FA0E /* SSSideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSSideViewController.m; path = classes/SSSideViewController.m; sourceTree = "<group>"; };
+		F42C3CF724B612E30015FA0E /* SSCourseListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSCourseListViewController.h; path = classes/SSCourseListViewController.h; sourceTree = "<group>"; };
+		F42C3CF824B612E30015FA0E /* SSCourseListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSCourseListViewController.m; path = classes/SSCourseListViewController.m; sourceTree = "<group>"; };
+		F4A3641624B20069005B5EA0 /* Shipshape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shipshape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A3641924B20069005B5EA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4A3641A24B20069005B5EA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F4A3641C24B20069005B5EA0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		F4A3641D24B20069005B5EA0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F4A3641F24B20069005B5EA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4A3642024B20069005B5EA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F4A3642324B20069005B5EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4A3642524B2006E005B5EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A3642824B2006E005B5EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A3642A24B2006E005B5EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A3642B24B2006E005B5EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4D8F28124F267F000702660 /* SSCourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSCourseModel.h; path = classes/SSCourseModel.h; sourceTree = "<group>"; };
+		F4D8F28224F267F000702660 /* SSCourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSCourseModel.m; path = classes/SSCourseModel.m; sourceTree = "<group>"; };
+		F4D8F28424F268C900702660 /* SSTimeSlotModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SSTimeSlotModel.h; path = classes/SSTimeSlotModel.h; sourceTree = "<group>"; };
+		F4D8F28524F268C900702660 /* SSTimeSlotModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SSTimeSlotModel.m; path = classes/SSTimeSlotModel.m; sourceTree = "<group>"; };
+		F4D8F28D24F293BE00702660 /* SSCalendarSpecManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCalendarSpecManager.h; path = classes/SSCalendarSpecManager.h; sourceTree = "<group>"; };
+		F4D8F28E24F293BE00702660 /* SSCalendarSpecManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCalendarSpecManager.m; path = classes/SSCalendarSpecManager.m; sourceTree = "<group>"; };
+		F4D8F29024F293DF00702660 /* SSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSMainViewController.m; path = classes/SSMainViewController.m; sourceTree = "<group>"; };
+		F4D8F29124F293DF00702660 /* SSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSMainViewController.h; path = classes/SSMainViewController.h; sourceTree = "<group>"; };
+		F4D8F29524F2947000702660 /* SSCalendarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCalendarItemView.h; path = classes/SSCalendarItemView.h; sourceTree = "<group>"; };
+		F4D8F29624F2947000702660 /* SSCourseListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCourseListCell.m; path = classes/SSCourseListCell.m; sourceTree = "<group>"; };
+		F4D8F29724F2947000702660 /* SSCalendarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCalendarItemView.m; path = classes/SSCalendarItemView.m; sourceTree = "<group>"; };
+		F4D8F29824F2947000702660 /* SSCourseListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCourseListCell.h; path = classes/SSCourseListCell.h; sourceTree = "<group>"; };
+		FD64FF84C32949955F85044B /* Pods-shipshape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shipshape.release.xcconfig"; path = "Target Support Files/Pods-shipshape/Pods-shipshape.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,24 +70,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720EFFD2DB20630404D25090 /* Pods_shipshape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A361029919226FBFBB84FC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E6574E69C47AFE0965152B3 /* Pods-shipshape.debug.xcconfig */,
+				FD64FF84C32949955F85044B /* Pods-shipshape.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		860C6EE2E53EF08CBAA96629 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8020FB629D92B1EC6323BDC9 /* Pods_shipshape.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F42C3CE324B2163D0015FA0E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F42C3CDB24B216250015FA0E /* inc.ttf */,
+				F42C3CDF24B216320015FA0E /* Aleo-Bold.otf */,
+				F42C3CDE24B216320015FA0E /* Aleo-Light.otf */,
+				F42C3CE424B216E30015FA0E /* Aleo-Regular.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		F42C3CEA24B35FE60015FA0E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8F28D24F293BE00702660 /* SSCalendarSpecManager.h */,
+				F4D8F28E24F293BE00702660 /* SSCalendarSpecManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		F42C3CEF24B395470015FA0E /* Built-in */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3641924B20069005B5EA0 /* AppDelegate.h */,
+				F4A3641A24B20069005B5EA0 /* AppDelegate.m */,
+				F4A3641C24B20069005B5EA0 /* SceneDelegate.h */,
+				F4A3641D24B20069005B5EA0 /* SceneDelegate.m */,
+			);
+			name = "Built-in";
+			sourceTree = "<group>";
+		};
+		F42C3CF024B4B4AD0015FA0E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8F29124F293DF00702660 /* SSMainViewController.h */,
+				F4D8F29024F293DF00702660 /* SSMainViewController.m */,
+				F42C3CF724B612E30015FA0E /* SSCourseListViewController.h */,
+				F42C3CF824B612E30015FA0E /* SSCourseListViewController.m */,
+				F42C3CF424B4B5B40015FA0E /* SSSideViewController.h */,
+				F42C3CF524B4B5B40015FA0E /* SSSideViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
 		F4A3640D24B20069005B5EA0 = {
 			isa = PBXGroup;
 			children = (
 				F4A3641824B20069005B5EA0 /* shipshape */,
 				F4A3641724B20069005B5EA0 /* Products */,
+				2A361029919226FBFBB84FC7 /* Pods */,
+				860C6EE2E53EF08CBAA96629 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F4A3641724B20069005B5EA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4A3641624B20069005B5EA0 /* shipshape.app */,
+				F4A3641624B20069005B5EA0 /* Shipshape.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,19 +159,42 @@
 		F4A3641824B20069005B5EA0 /* shipshape */ = {
 			isa = PBXGroup;
 			children = (
-				F4A3641924B20069005B5EA0 /* AppDelegate.h */,
-				F4A3641A24B20069005B5EA0 /* AppDelegate.m */,
-				F4A3641C24B20069005B5EA0 /* SceneDelegate.h */,
-				F4A3641D24B20069005B5EA0 /* SceneDelegate.m */,
-				F4A3641F24B20069005B5EA0 /* ViewController.h */,
-				F4A3642024B20069005B5EA0 /* ViewController.m */,
-				F4A3642224B20069005B5EA0 /* Main.storyboard */,
-				F4A3642524B2006E005B5EA0 /* Assets.xcassets */,
+				F42C3CEF24B395470015FA0E /* Built-in */,
+				F42C3CF024B4B4AD0015FA0E /* VC */,
 				F4A3642724B2006E005B5EA0 /* LaunchScreen.storyboard */,
+				F4A3642224B20069005B5EA0 /* Main.storyboard */,
+				F42C3CE624B35CA60015FA0E /* SSGlobalDefinitions.h */,
+				F4D8F29424F2942800702660 /* View */,
+				F42C3CEA24B35FE60015FA0E /* Manager */,
+				F4D8F28024F267B300702660 /* Model */,
+				F42C3CE324B2163D0015FA0E /* Font */,
+				F4A3642524B2006E005B5EA0 /* Assets.xcassets */,
 				F4A3642A24B2006E005B5EA0 /* Info.plist */,
 				F4A3642B24B2006E005B5EA0 /* main.m */,
 			);
 			path = shipshape;
+			sourceTree = "<group>";
+		};
+		F4D8F28024F267B300702660 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8F28124F267F000702660 /* SSCourseModel.h */,
+				F4D8F28224F267F000702660 /* SSCourseModel.m */,
+				F4D8F28424F268C900702660 /* SSTimeSlotModel.h */,
+				F4D8F28524F268C900702660 /* SSTimeSlotModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4D8F29424F2942800702660 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8F29524F2947000702660 /* SSCalendarItemView.h */,
+				F4D8F29724F2947000702660 /* SSCalendarItemView.m */,
+				F4D8F29824F2947000702660 /* SSCourseListCell.h */,
+				F4D8F29624F2947000702660 /* SSCourseListCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4A3642F24B2006E005B5EA0 /* Build configuration list for PBXNativeTarget "shipshape" */;
 			buildPhases = (
+				0CC9D0F801ABD61AE8153EE7 /* [CP] Check Pods Manifest.lock */,
 				F4A3641224B20069005B5EA0 /* Sources */,
 				F4A3641324B20069005B5EA0 /* Frameworks */,
 				F4A3641424B20069005B5EA0 /* Resources */,
+				D478A21A40B1D1E718C5F0A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,7 +216,7 @@
 			);
 			name = shipshape;
 			productName = shipshape;
-			productReference = F4A3641624B20069005B5EA0 /* shipshape.app */;
+			productReference = F4A3641624B20069005B5EA0 /* Shipshape.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,23 +255,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42C3CE124B216320015FA0E /* Aleo-Light.otf in Resources */,
 				F4A3642924B2006E005B5EA0 /* LaunchScreen.storyboard in Resources */,
+				F42C3CDC24B216250015FA0E /* inc.ttf in Resources */,
 				F4A3642624B2006E005B5EA0 /* Assets.xcassets in Resources */,
 				F4A3642424B20069005B5EA0 /* Main.storyboard in Resources */,
+				F42C3CE224B216320015FA0E /* Aleo-Bold.otf in Resources */,
+				F42C3CE524B216E30015FA0E /* Aleo-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC9D0F801ABD61AE8153EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shipshape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D478A21A40B1D1E718C5F0A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shipshape/Pods-shipshape-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shipshape/Pods-shipshape-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shipshape/Pods-shipshape-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4A3641224B20069005B5EA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A3642124B20069005B5EA0 /* ViewController.m in Sources */,
+				F42C3CF924B612E30015FA0E /* SSCourseListViewController.m in Sources */,
+				F4D8F29224F293DF00702660 /* SSMainViewController.m in Sources */,
+				F4D8F29924F2947000702660 /* SSCourseListCell.m in Sources */,
 				F4A3641B24B20069005B5EA0 /* AppDelegate.m in Sources */,
+				F4D8F28F24F293BE00702660 /* SSCalendarSpecManager.m in Sources */,
+				F4D8F28324F267F000702660 /* SSCourseModel.m in Sources */,
+				F4D8F29A24F2947000702660 /* SSCalendarItemView.m in Sources */,
+				F42C3CF624B4B5B40015FA0E /* SSSideViewController.m in Sources */,
 				F4A3642C24B2006E005B5EA0 /* main.m in Sources */,
 				F4A3641E24B20069005B5EA0 /* SceneDelegate.m in Sources */,
+				F4D8F28624F268C900702660 /* SSTimeSlotModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +462,9 @@
 		};
 		F4A3643024B2006E005B5EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6574E69C47AFE0965152B3 /* Pods-shipshape.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FM45LWDA7;
@@ -296,14 +474,16 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jerry.li.shipshape;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Shipshape;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F4A3643124B2006E005B5EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD64FF84C32949955F85044B /* Pods-shipshape.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FM45LWDA7;
@@ -313,7 +493,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jerry.li.shipshape;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Shipshape;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
